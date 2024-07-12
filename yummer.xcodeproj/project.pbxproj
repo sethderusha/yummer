@@ -16,6 +16,7 @@
 		73AD0DF42C40EFAB005E4468 /* yummerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DF32C40EFAB005E4468 /* yummerTests.swift */; };
 		73AD0DFE2C40EFAB005E4468 /* yummerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DFD2C40EFAB005E4468 /* yummerUITests.swift */; };
 		73AD0E002C40EFAB005E4468 /* yummerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DFF2C40EFAB005E4468 /* yummerUITestsLaunchTests.swift */; };
+		73AD0E0D2C40F02F005E4468 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0E0C2C40F02F005E4468 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		73AD0DF92C40EFAB005E4468 /* yummerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yummerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AD0DFD2C40EFAB005E4468 /* yummerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yummerUITests.swift; sourceTree = "<group>"; };
 		73AD0DFF2C40EFAB005E4468 /* yummerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yummerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73AD0E0C2C40F02F005E4468 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				73AD0DE52C40EFAB005E4468 /* Assets.xcassets */,
 				73AD0DE72C40EFAB005E4468 /* LaunchScreen.storyboard */,
 				73AD0DEA2C40EFAB005E4468 /* Info.plist */,
+				73AD0E0C2C40F02F005E4468 /* LocationService.swift */,
 			);
 			path = yummer;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				73AD0DE12C40EFA9005E4468 /* ViewController.swift in Sources */,
 				73AD0DDD2C40EFA9005E4468 /* AppDelegate.swift in Sources */,
+				73AD0E0D2C40F02F005E4468 /* LocationService.swift in Sources */,
 				73AD0DDF2C40EFA9005E4468 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

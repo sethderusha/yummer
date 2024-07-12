@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7354EE472C4166BC005C7EA8 /* GooglePlaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7354EE462C4166BC005C7EA8 /* GooglePlaceController.swift */; };
 		73AD0DDD2C40EFA9005E4468 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DDC2C40EFA9005E4468 /* AppDelegate.swift */; };
 		73AD0DDF2C40EFA9005E4468 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DDE2C40EFA9005E4468 /* SceneDelegate.swift */; };
 		73AD0DE12C40EFA9005E4468 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AD0DE02C40EFA9005E4468 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7354EE462C4166BC005C7EA8 /* GooglePlaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceController.swift; sourceTree = "<group>"; };
 		73AD0DD92C40EFA9005E4468 /* yummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AD0DDC2C40EFA9005E4468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73AD0DDE2C40EFA9005E4468 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				73AD0DE72C40EFAB005E4468 /* LaunchScreen.storyboard */,
 				73AD0DEA2C40EFAB005E4468 /* Info.plist */,
 				73AD0E0C2C40F02F005E4468 /* LocationService.swift */,
+				7354EE462C4166BC005C7EA8 /* GooglePlaceController.swift */,
 			);
 			path = yummer;
 			sourceTree = "<group>";
@@ -218,6 +221,10 @@
 				Base,
 			);
 			mainGroup = 73AD0DD02C40EFA9005E4468;
+			packageReferences = (
+				7354EE482C41681C005C7EA8 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				7354EE492C416ABD005C7EA8 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			productRefGroup = 73AD0DDA2C40EFA9005E4468 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7354EE472C4166BC005C7EA8 /* GooglePlaceController.swift in Sources */,
 				73AD0DE12C40EFA9005E4468 /* ViewController.swift in Sources */,
 				73AD0DDD2C40EFA9005E4468 /* AppDelegate.swift in Sources */,
 				73AD0E0D2C40F02F005E4468 /* LocationService.swift in Sources */,
@@ -611,6 +619,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7354EE482C41681C005C7EA8 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		7354EE492C416ABD005C7EA8 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 73AD0DD12C40EFA9005E4468 /* Project object */;
 }
